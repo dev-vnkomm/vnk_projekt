@@ -7,7 +7,7 @@
     "vnk project"
   ],
   "version": "2.1.1",
-  "type": "contao-module",
+  "type": "contao-bundle",
   "homepage": "https://github.com/dev-vnkomm/vnk_project",
   "license": "MIT",
   "authors": [
