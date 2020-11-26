@@ -1,0 +1,49 @@
+<div class="<?= $this->class ?> block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+
+  <?php if ($this->addProjectImage): ?>
+    <figure class="image_container<?= $this->floatClass ?>"<?php if ($this->margin): ?> style="<?= $this->margin ?>"<?php endif; ?>>
+
+      <?php if ($this->href): ?>
+        <a href="<?= $this->href ?>"<?php if ($this->linkTitle): ?> title="<?= $this->linkTitle ?>"<?php endif; ?><?= $this->attributes ?>>
+      <?php endif; ?>
+
+      <?php $this->insert('picture_default', $this->picture); ?>
+
+      <?php if ($this->href): ?>
+        </a>
+      <?php endif; ?>
+
+      <?php if ($this->caption): ?>
+        <figcaption class="caption"><?= $this->caption ?></figcaption>
+      <?php endif; ?>
+
+    </figure>
+  <?php endif; ?>
+
+  <div class="text_container">
+    <div class="inside">
+      <p class="project__name">
+        <?= $this->project_name ?>
+      </p>
+	  
+      <?php if($this->project_vendor): ?>
+	      <div class="project__vendor">
+	        <?= $this->project_vendor ?>
+	      </div>
+      <?php endif; ?>
+      
+      <?php if($this->project_description): ?>
+	      <div class="project__description">
+	        <?= $this->project_description ?>
+	      </div>
+      <?php endif; ?>
+      
+      <?php if($this->project_url): ?>
+	      <div class="project__url">
+	        <a href="<?= $this->project_url_link ?>" >Zum Projekt</a>
+	      </div>
+      <?php endif; ?>
+    </div>
+  </div>
+
+</div>
