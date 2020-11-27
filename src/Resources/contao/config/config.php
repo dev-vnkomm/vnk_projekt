@@ -20,7 +20,7 @@ use Vnkomm\ContaoProjectBundle\Content\Project;
 
 
 /**
- * EuF Hero ContentElement
+ * vnk Hero ContentElement
  */
 array_insert(
     $GLOBALS['TL_CTE']['media'],
