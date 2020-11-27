@@ -22,7 +22,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * The Bundle class.
  */
-class VnkommContaoProjectBundle extends Bundle
+class ContaoProjectBundle extends Bundle
 {
 
 }
