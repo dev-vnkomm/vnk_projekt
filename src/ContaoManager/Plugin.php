@@ -21,7 +21,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Vnkomm\ContaoProjectBundle\ContaoProjectBundle;
+use Vnkomm\ContaoProjectBundle\VnkommContaoProjectBundle;
 
 /**
  * Contao Manager plugin.
@@ -34,7 +34,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoProjectBundle::class)
+            BundleConfig::create(VnkommContaoProjectBundle::class)
                 ->setLoadAfter(
                     [
                         ContaoCoreBundle::class
