@@ -15,14 +15,14 @@
  * @filesource
  */
 
-namespace vnkomm\ContaoProjectBundle;
+namespace Vnkomm\ContaoProjectBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * The Bundle class.
  */
-class vnkommContaoProjectBundle extends Bundle
+class VnkommContaoProjectBundle extends Bundle
 {
 
 }

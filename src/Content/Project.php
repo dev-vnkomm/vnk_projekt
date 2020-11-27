@@ -16,7 +16,7 @@
  */
 
 
-namespace vnkomm\ContaoProjectBundle\Content;
+namespace Vnkomm\ContaoProjectBundle\Content;
 
 use Contao\Config;
 use Contao\ContentElement;

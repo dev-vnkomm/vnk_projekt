@@ -16,7 +16,7 @@
  */
 
 
-use vnkomm\ContaoProjectBundle\Content\Project;
+use Vnkomm\ContaoProjectBundle\Content\Project;
 
 
 /**

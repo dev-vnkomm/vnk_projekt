@@ -57,7 +57,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['project_name'] = [
     'sql'       => "varchar(255) NOT NULL default ''"
 ];
 
-// position
+// vendor
 $GLOBALS['TL_DCA']['tl_content']['fields']['project_vendor'] = [
     'label'     => &$GLOBALS['TL_LANG']['tl_content']['project_vendor'],
     'exclude'   => true,
@@ -71,7 +71,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['project_vendor'] = [
     'sql'       => "varchar(255) NOT NULL default ''"
 ];
 
-// position
+// url
 $GLOBALS['TL_DCA']['tl_content']['fields']['project_url'] = [
     'label'     => &$GLOBALS['TL_LANG']['tl_content']['project_url'],
     'exclude'   => true,

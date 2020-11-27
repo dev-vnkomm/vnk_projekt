@@ -19,4 +19,4 @@
 /**
  * Elemente
  */
-$GLOBALS['TL_LANG']['CTE']['project'][0] = 'Project';
+$GLOBALS['TL_LANG']['CTE']['project'][0] = 'Projekt';
