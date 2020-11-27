@@ -15,13 +15,13 @@
  * @filesource
  */
 
-namespace Vnkomm\ContaoContactBundle\ContaoManager;
+namespace Vnkomm\ContaoProjectBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Vnkomm\ContaoContactBundle\VnkommContaoProjectBundle;
+use Vnkomm\ContaoProjectBundle\ContaoProjectBundle;
 
 /**
  * Contao Manager plugin.
@@ -34,7 +34,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(VnkommContaoProjectBundle::class)
+            BundleConfig::create(ContaoProjectBundle::class)
                 ->setLoadAfter(
                     [
                         ContaoCoreBundle::class
