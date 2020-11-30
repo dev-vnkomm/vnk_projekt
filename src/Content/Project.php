@@ -70,6 +70,6 @@ class Project extends ContentElement
 
 
 		// Add project url link
-		$this->Template->project_url_link = '&#109;&#97;&#105;&#108;&#116;&#111;&#58;' . $this->project_url;
+		$this->Template->project_url_link =  $this->project_url;
     }
 }
